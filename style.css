@@ -33,13 +33,17 @@ nav:hover {
 *{
     font-family: 'Autour One'; 
 }
-div{
-    padding: 20%;
-    margin: 10px;
-    border: navajowhite;
+.about{
+    padding: 30%;
+    margin: 15%;
+    flex: 30%;
 }
 body{
     background-color: lightgoldenrodyellow;
+}
+.main {  
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
