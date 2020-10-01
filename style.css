@@ -30,9 +30,10 @@ nav:hover {
     /*color: black;  Black text color */
 
 
-*{
+* {
     font-family: 'Autour One'; 
 }
+
 .about{
     padding: 30%;
     margin: 15%;
