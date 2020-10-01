@@ -26,7 +26,7 @@ nav{
      overflow: hidden;
 }
 nav:hover {
-    background-color: #ddd; 
+    background-color: rgba(223, 212, 150, 0.884); 
 }
 
 * {
