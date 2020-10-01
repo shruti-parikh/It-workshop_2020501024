@@ -26,26 +26,28 @@ nav{
      overflow: hidden;
 }
 nav:hover {
-    background-color: #ddd; /* Grey background color */
-    /*color: black;  Black text color */
-
+    background-color: #ddd; 
+}
 
 * {
     font-family: 'Autour One'; 
 }
-
+.main {  
+   display: inline-flexbox;
+    flex-wrap: wrap;
+}
 .about{
-    padding: 30%;
-    margin: 15%;
+    padding: 5%;
     flex: 30%;
+    
+}
+.overview{
+  flex: 70%;
+  background-color: rgba(243, 165, 71, 0.904);
+  padding: 15px;
+}
+
 }
 body{
     background-color: lightgoldenrodyellow;
 }
-.main {  
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-  
