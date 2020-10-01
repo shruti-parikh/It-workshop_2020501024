@@ -1,0 +1,46 @@
+.header {
+    padding: 90px;
+    text-align: right; 
+    
+    color: rgb(114, 112, 19); 
+    background-image: url("https://i2.wp.com/backgroundcheckall.com/wp-content/uploads/2017/12/background-hd-images-for-photoshop-editing-10.jpg");
+    background-repeat: no-repeat;
+}
+/*.header:hover{
+    background-position: 5
+    0px;
+}*/
+ul,li,a{
+    text-decoration: wavy;
+    display: inline-block;
+    font-family: 'Autour One';
+    color: #1e1e1e;
+    padding:0px 30px ;
+    
+}
+nav{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: rgba(243, 165, 71, 0.904);
+     overflow: hidden;
+}
+nav:hover {
+    background-color: #ddd; /* Grey background color */
+    /*color: black;  Black text color */
+
+
+*{
+    font-family: 'Autour One'; 
+}
+div{
+    padding: 20%;
+    margin: 10px;
+    border: navajowhite;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+
+  
