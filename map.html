@@ -2,6 +2,8 @@
     <head>
         <title>Maps</title>
         <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+
         <style>
           body{
                 background-color: lightgoldenrodyellow;
@@ -24,11 +26,29 @@
             * {
                  box-sizing: border-box;
             }
-            .main1 {   
-                -ms-flex: 70%; /* IE10 */
-                flex: 70%;
+            #places th {
+              padding-top: 15px;
+              padding-bottom: 15px;
+              text-align: center;
+              background-color:rgba(248, 189, 116, 0.904);
+               color: rgb(19, 18, 18);
+            }
+            #places td, #places th {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+            }
+             a:hover {
+                color: rgb(129, 118, 103);
+            }
+            li:hover {
+                color: rgb(129, 118, 103);
+            }
+            #places tr:nth-child(even){background-color:rgba(248, 235, 159, 0.808);}
+
+            
                 
-             }
+             
+
 
 
            
@@ -37,62 +57,123 @@
         </style>
         
     </head>
-    <body>
-          <div class="Header1">
+   <body>
+        <div class="Header1">
               <h1>NIZAMABAD ON GOOGLE MAPS</h1>
-          </div>
-          <div class="main1">
+        </div>
+        <div class="main1">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1889.8324908756867!2d78.10225315618581!3d18.67902378731691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcddb31a2f9a5fb%3A0xc885ee9e1b491c5c!2sNizamabad%20Junction!5e0!3m2!1sen!2sin!4v1601575726640!5m2!1sen!2sin"
                     width="600" height="450" frameborder="0" style="border:0;" 
                     allowfullscreen="" aria-hidden="false" tabindex="0">
                 </iframe>
-            </div>
+         </div>
+            <h2></h2>
+        <table id="places">
+
+                <tr>
+                  <th>Category</th>
+                  <th>Main Area</th>
+                  <th>Location on maps</th>
+                </tr>
+                
+                <tr>
+                  <td>Hospitals</td>
+                  <td>
+                      <ol class="hosp">
+                            <li>Government Hospital</li><br>
+                            <li> Hope Hospital</li><br>
+                            <li>Manorama Hospital</li><br>
+                            <li>Harsha Sai Eye & Dental Hospital</li>
+                        </ol>
+                    </td>
+                  <td >
+                      <ul>
+                          <li><a href="https://goo.gl/maps/BKnRSvLFNKiqyJ326">On Map</a></li><br>
+                          <li><a href="https://g.page/hopesuperspeciality?share">On Map</a></li><br>
+                          <li><a href="https://goo.gl/maps/h624kG4MquLpMhyA8">On Map</a></li><br>
+                          <li><a href="https://goo.gl/maps/5cny4gsSTDDpExAYA">On Map</a></li>
+
+                      </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Supermarkets</td>
+                    <td>
+                        <ol>
+                              <li>Relience Mart</li><br>
+                              <li> walmart </li><br>
+                              <li>Relience Smart</li><br>
+                              <li>Vasavi Hyper market</li>
+                          </ol>
+                    </td>
+                    <td >
+                        <ul>
+                            <li><a href="https://goo.gl/maps/oKxv5kgUJxk6yzw29">On Map</a></li><br>
+                            <li><a href="https://goo.gl/maps/Ea4sMdfNDT4VwiXv8">On Map</a></li><br>
+                            <li><a href="https://goo.gl/maps/W1fb9HjehjgtKrXy9">On Map</a></li><br>
+                            <li><a href="https://goo.gl/maps/CMXBRLnVtBag94hf8">On Map</a></li>
+  
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Scanning & Diagnostic Centre</td>
+                    <td>
+                        <ol>
+                              <li>Balaji Pathology Laboratory</li><br>
+                              <li>Lucid & Legit Medical Diagnostics center</li><br>
+                              <li>Ganga lab</li><br>
+                              <li>Sheetal Scanning Center</li>
+                          </ol>
+                    </td>
+                  
+                    
+                    <td >
+            
+                        <ul>
+                            <li><a href="https://goo.gl/maps/CbqL253JpXMw2SFK9">On Map</a></li><br>
+                            <li><a href="https://goo.gl/maps/DtF7ayYXHWfgeK987">On Map</a></li><br>
+                            <li><a href="https://goo.gl/maps/2ptHu9o8yLVLJT7z7">On Map</a></li><br>
+                            <li><a href="https://goo.gl/maps/H1TyMVzG6xUrQawLA">On Map</a></li>
+  
+                        </ul>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td>Library</td>
+                    <td><ul><li>Nizamabad Central Library</li></ul></td>
+                    <td><ul><li><a href="https://goo.gl/maps/7hNi14XLECD3tg5Z7">On Map</a><li></ul></td>
+                </tr>
+            </table>
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
